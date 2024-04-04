@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension xmlns="http://addins.webcube.ser.com/v1" classpath=".;WEB-INF/lib;*">
+    <scripts>
+        <script active="{cxiBoolean}1"
+                class="com.ser.DocGPT_KeyChange"
+                name="DocGPT-KeyChange"
+                processDef=""
+                processType=""
+                reference="bd90a5a0-44cb-4ff8-9525-6c89a1aa6093"
+                server=""
+                system=""
+                type="keychange"/>
+    </scripts>
+    <security>
+        <configuration>
+            <public-area>
+                <url-pattern>.*</url-pattern>
+            </public-area>
+        </configuration>
+    </security>
+</extension>
